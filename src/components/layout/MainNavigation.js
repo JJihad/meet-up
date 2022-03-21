@@ -5,7 +5,7 @@ import classes from './MainNavigation.module.css';
 function MainNavigation() {
     return (
     <header className={classes.header}>
-        <div className={classes.logo}>REACT MEETUPS</div>
+        <div className={classes.logo}><Link to='/'>REACT MEETUPS</Link></div>
         <nav>
             <ul>
                 <li><Link to='/'>All meetups</Link></li>
