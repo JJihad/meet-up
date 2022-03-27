@@ -10,6 +10,7 @@ function App() {
     <Layout>
       <Routes>
         <Route path='/' exact element={<AllMeetupsPage />} />
+        <Route path='/meet-up' exact element={<AllMeetupsPage />} />
         <Route path='/new-meetup' element={<NewMeetupPage />} />
         <Route path='/favorites' element={<FavoritesPage />} />
       </Routes>
